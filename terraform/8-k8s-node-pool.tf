@@ -9,7 +9,7 @@ resource "google_container_node_pool" "pool" {
     oauth_scopes = [
       "https://www.googleapis.com/auth/cloud-platform"
     ]
-    machine_type = "e2-small"
+    machine_type = "e2-standard-4"
   }
 
   management {

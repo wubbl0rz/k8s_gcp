@@ -27,7 +27,7 @@ resource "google_project_service" "container" {
 
 terraform {
   backend "gcs" {
-    bucket = "kekl-stream-1-tools"
+    bucket = "pro-talon-393609-tools"
     prefix = "terraform/state"
   }
 }
